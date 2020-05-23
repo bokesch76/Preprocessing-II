@@ -175,14 +175,10 @@ img {
   width: 100%;
   margin: 0 auto;
 }
-nav {
-  display: flex;
-  margin: 0 auto;
-  border-bottom: 2px dashed #C0C0C0;
-}
 nav h1 {
   display: flex;
   justify-content: flex-start;
+  margin-bottom: 10px;
 }
 nav a {
   text-decoration: none;

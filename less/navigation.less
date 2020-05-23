@@ -1,12 +1,14 @@
 // Navigation Styles here
 nav {
-    display: flex;
-    margin: 0 auto;
-    border-bottom: 2px dashed @navigation-border;
+    .containerDisplay(flex-start, center){
+        border-bottom: 2px dashed @navigation-border;
+    }
+    
 
     h1{
         display: flex;
         justify-content: flex-start;
+        margin-bottom: 10px;
     }
     a {
         .linkColor;

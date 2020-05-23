@@ -177,7 +177,7 @@ img {
 }
 nav {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   max-width: 800px;
   width: 100%;
@@ -197,6 +197,7 @@ nav a {
   font-size: 1.75rem;
   font-weight: bold;
   padding: 12px;
+  padding: 5px;
 }
 .footer {
   width: 100%;

@@ -12,3 +12,17 @@
     justify-content: @justify;
     align-items: @align;
 }
+
+.buttonDisplay(@radius, @background, @text) {
+    border-radius: @radius;
+    background: @background;
+    color: @text;
+    font-size: 1.75rem;
+    font-weight: bold;
+    text-align: center;
+
+    &:hover {
+        color: black;
+        background: yellow;
+    }
+}

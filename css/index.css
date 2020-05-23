@@ -210,6 +210,18 @@ nav a {
   font-size: 1.6rem;
   padding: 20px;
 }
+.home .introHeader {
+  max-width: 800px;
+  border-bottom: 2px dashed #C0C0C0;
+  margin-bottom: 10px;
+}
+.home .introHeader img {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.home .introHeader p {
+  margin-bottom: 10px;
+}
 .home .content-section {
   margin: 30px 0;
   display: flex;

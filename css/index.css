@@ -192,6 +192,15 @@ nav a {
   padding: 12px;
   padding: 5px;
 }
+@media (max-width: 500px) {
+  nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+  }
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
@@ -202,6 +211,16 @@ nav a {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+@media (max-width: 500px) {
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    width: 80%;
+    margin: 0 auto;
+  }
 }
 .home .introHeader {
   max-width: 800px;
@@ -214,6 +233,12 @@ nav a {
 }
 .home .introHeader p {
   margin-bottom: 10px;
+}
+@media (max-width: 500px) {
+  .home .introHeader {
+    width: 80%;
+    margin: 0 auto;
+  }
 }
 .home .content-section {
   margin: 30px 0;
@@ -232,6 +257,16 @@ nav a {
 .home .content-section .img-content img {
   border-radius: 10px;
 }
+@media (max-width: 500px) {
+  .home .content-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .home .content-section .img-content {
+    width: 60%;
+  }
+}
 .home .inverse-content {
   padding-bottom: 30px;
   border-bottom: 2px dashed #C0C0C0;
@@ -244,12 +279,36 @@ nav a {
   padding-right: 1%;
   padding-left: 0;
 }
+@media (max-width: 500px) {
+  .home .inverse-content {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    border-bottom: 2px dashed #C0C0C0;
+    margin: 0 auto;
+    width: 80%;
+    margin-bottom: 20px;
+  }
+  .home .inverse-content .img-content {
+    width: 80%;
+  }
+}
 .home .content-destination {
   width: 75%;
   margin: 0 auto 30px;
 }
 .home .content-destination img {
   border-radius: 10px;
+}
+@media (max-width: 500px) {
+  .home .content-destination {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
 }
 .home .content-pick {
   padding-top: 30px;
@@ -275,4 +334,29 @@ nav a {
   color: black;
   background: yellow;
   text-decoration: none;
+}
+@media (max-width: 500px) {
+  .home .content-pick {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 2px dashed #C0C0C0;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .home .content-pick h4 {
+    font-size: 2.5rem;
+  }
+  .home .content-pick p {
+    font-size: 1.75rem;
+    line-height: 1.25;
+  }
+  .home .content-pick button {
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 150px;
+  }
 }

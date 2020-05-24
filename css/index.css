@@ -203,8 +203,8 @@ nav a {
 }
 .footer {
   width: 100%;
-  border-top: 2px dashed silver;
-  background: #FFEBCD;
+  border: 2px solid #C0C0C0;
+  border-radius: 10px;
 }
 .footer p {
   text-align: center;

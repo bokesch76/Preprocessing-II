@@ -1,5 +1,5 @@
 // Mixins in here
-.linkColor {
+.linkColor() {
     text-decoration: none;
     color: black;
     font-size: 1.75rem;
@@ -14,7 +14,7 @@
 }
 
 .buttonDisplay(@weight, @background, @text) {
-    background: @background;
+    background-color: @background;
     color: @text;
     font-size: 1.75rem;
     font-weight: @weight;
